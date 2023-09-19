@@ -1,17 +1,20 @@
-.Section-3-Top-Text{
+.Section-3-Top-Text {
     text-align: center;
     padding-top: 150px;
 }
-.Section-3-Flex{
-    display: flex ;
+
+.Section-3-Flex {
+    display: flex;
     justify-content: center;
-   flex-wrap: wrap;
-   padding: 0 10px;
+    flex-wrap: wrap;
+    padding: 0 10px;
     padding-top: 100px;
 }
-.Section-3-Hover img{
+
+.Section-3-Hover img {
     height: 873px;
 }
+
 .overlay {
     position: absolute;
     top: 0;
@@ -25,12 +28,15 @@
     height: 99%;
     cursor: pointer;
 }
-.content h5{
+
+.content h5 {
     text-align: center;
 }
-.content h1{
+
+.content h1 {
     text-align: center;
 }
+
 .content {
     position: absolute;
     top: 50%;
@@ -48,24 +54,28 @@
 .overlay:hover {
     opacity: 1;
 }
+
 .Section-3-Hover {
     position: relative;
-   
+    padding: 10px;
 }
+
 .content h1 {
-  text-transform: uppercase;
+    text-transform: uppercase;
     font-size: 70px;
     line-height: 1;
     font-weight: 400;
     color: rgb(255, 255, 255);
 }
-.Section-3-P{
+
+.Section-3-P {
     text-align: center;
-    padding:0 10px  ;
+    padding: 0 10px;
 }
+
 @media (max-width:768px) {
     .Section-3-Hover img {
         height: auto;
         width: 100%;
-      }
+    }
 }

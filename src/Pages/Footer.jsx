@@ -1,5 +1,7 @@
 import React from 'react'
 import './Footer.css'
+import img from "../Pages/img/Site-logo.png"
+
 
 import {IoCodeSlash } from "react-icons/io5";
 
@@ -8,7 +10,8 @@ const Footer = () => {
 <>
 <div className="Footer-Flex">
     <div>
-    <h3>Agressov Group</h3>
+    <img src={img} alt="" />
+
     <p>All Right Reserved 2023</p>
     </div>
     <div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Banner.css'
 // import {motion} from 'framer-motion'
+import img from "../Pages/img/Site-logo.png"
 
 const Banner = () => {
   return (
@@ -12,7 +13,7 @@ const Banner = () => {
                   
                 > */}
     <div className="Banner-BG"> 
-    <h3>AGRESSOV</h3>
+    <img src={img} alt="" />
     <div className='Banner-BG-Text'>
     <h1>WITH YOU. ALWAYS</h1>
     <button>Book Now</button>
